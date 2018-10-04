@@ -19,7 +19,7 @@ fun main(args: Array<String>) {
             "jdbc:postgresql:musica",
             "org.postgresql.Driver",
             "postgres",
-            "postgres"
+            "admin"
     )
 
     transaction {
