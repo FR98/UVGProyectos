@@ -26,7 +26,7 @@ fun main(args: Array<String>) {
 
         println("Estas son las canciones: ")
         for(cancion in Cancion.selectAll()) {
-            println("${cancion[Cancion.song]}: ${cancion[Cancion.year]}")
+            println("${cancion[Cancion.song]}: ${cancion[Cancion.song]}")
         }
 
     }*/
