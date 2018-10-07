@@ -9,6 +9,5 @@ fun menu1(): String {
         2. Buscar cancion por artista
         3. Mostrar todas mis canciones favoritas
         4. Salir
-
     """.trimIndent()
 }

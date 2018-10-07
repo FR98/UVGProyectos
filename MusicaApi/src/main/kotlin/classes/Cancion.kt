@@ -4,13 +4,13 @@ import org.jetbrains.exposed.sql.Table
 
 object Cancion: Table() {
     //ATRIBUTOS DEL OBJETO CANCION
-    //val id = integer("id").autoIncrement().primaryKey()
+    val id = integer("id").autoIncrement().primaryKey()
     //val isFavourite = bool("isFavourite")
     val year = varchar("year", length = 5)
     val country = varchar("country", length = 24)
     val region = varchar("region", length = 24)
-    val artistName = varchar("artistName", length = 30)
-    val song = varchar("song", length = 25)
+    val artistName = varchar("artistName", length = 50)
+    val song = varchar("song", length = 50)
     val artistGender = varchar("artistGender", length = 15)
     val groupOrSolo = varchar("groupOrSolo", length = 15)
     val place = varchar("place", length = 15)

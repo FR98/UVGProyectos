@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad18182e-879e-4c1e-a504-84914fffa008" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/META-INF/MusicaApi_main.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/META-INF/MusicaApi_main.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/MainKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/classes/Cancion.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/classes/Cancion.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/classes/LecturaCancion.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/classes/LecturaCancion.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/menus/Menu.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/menus/Menu.kt" afterDir="false" />
     </list>
@@ -116,34 +112,34 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="kt" value="11" />
+          <entry key="kt" value="12" />
           <entry key="kts" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Kotlin" value="12" />
+          <entry key="Kotlin" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="kt" value="2869" />
+          <entry key="kt" value="2884" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Kotlin" value="2869" />
+          <entry key="Kotlin" value="2884" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="-569">
+              <caret line="29" column="40" lean-forward="true" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
               <folding>
                 <element signature="e#0#278#0" expanded="true" />
               </folding>
@@ -163,11 +159,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/classes/Cancion.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+            <state relative-caret-position="102">
+              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -597,10 +593,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/build.gradle.kts" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/menus/Menu.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/classes/LecturaCancion.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/main.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/menus/Menu.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/classes/Cancion.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/main.kt" />
       </list>
     </option>
   </component>
@@ -665,7 +661,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538941113467" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538942358229" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../poo2018/misctests2" />
     <property name="settings.editor.selected.configurable" value="gradle.compiler" />
   </component>
@@ -716,7 +712,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11497731" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -725,7 +720,7 @@
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.32879046" />
+      <window_info anchor="bottom" id="Messages" order="0" visible="true" weight="0.32879046" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -745,7 +740,7 @@
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
-      <window_info active="true" anchor="right" id="Run" order="9" visible="true" weight="0.5" />
+      <window_info active="true" anchor="right" id="Run" order="9" visible="true" weight="0.35854766" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -759,17 +754,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/menus/Menu.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle.kts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/menus/Menu.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/classes/Cancion.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -785,18 +787,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/main.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="-569">
+          <caret line="29" column="40" lean-forward="true" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
           <folding>
             <element signature="e#0#278#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/classes/Cancion.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
         </state>
       </provider>
     </entry>

@@ -16,8 +16,7 @@ fun main(args: Array<String>) {
 
     //CONEXION A BASE DE DATOS
     Database.connect(
-            //Nombre de la db
-            "jdbc:postgresql:postgres",
+            "jdbc:postgresql:musica",
             "org.postgresql.Driver",
             "postgres",
             "admin"
@@ -29,7 +28,6 @@ fun main(args: Array<String>) {
         if (canciones != null) {
             for (cancion in canciones) {
                 Cancion.insert {
-                    //it[id] = cancion.id
                     it[year] = cancion.year
                     it[country] = cancion.country
                     it[region] = cancion.region
