@@ -4,10 +4,12 @@ import com.github.kittinunf.fuel.core.ResponseDeserializable
 import com.google.gson.Gson
 
 data class LecturaCancion (
-        //val year: String,
+        //ATRIBUTOS DE LA CLASE
+        //val isFavourite: String
+        val year: String,
         val country: String,
         val region: String,
-        val artistname: String,
+        val artistName: String,
         val song: String,
         val artistGender: String,
         val groupOrSolo: String,
@@ -30,7 +32,6 @@ data class LecturaCancion (
         val loudness: String,
         val valence: String,
         val happiness: String
-        //val isFavourite: String
         ) {
 
     class LecturaCancionArrayDeserializer: ResponseDeserializable<Array<LecturaCancion>> {
