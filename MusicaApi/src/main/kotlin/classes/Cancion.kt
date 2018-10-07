@@ -3,7 +3,7 @@ package classes
 import org.jetbrains.exposed.sql.Table
 
 object Cancion: Table() {
-    val id = integer("id").autoIncrement().primaryKey()
+    //val id = integer("id").autoIncrement().primaryKey()
     val year = varchar("year", length = 25)
     val country = varchar("country", length = 25)
     val region = varchar("region", length = 25)
@@ -30,7 +30,7 @@ object Cancion: Table() {
     val loudness = varchar("loudness", length = 25)
     val valence = varchar("valence", length = 25)
     val happiness = varchar("happiness", length = 25)
-    val isFavourite = bool("isFavourite")
+    //val isFavourite = bool("isFavourite")
 
 }
 

@@ -1,8 +1,7 @@
 import classes.Cancion
-import com.github.kittinunf.fuel.Fuel
-import com.github.kittinunf.fuel.gson.responseObject
-import org.jetbrains.exposed.sql.Database
 import classes.LecturaCancion
+import com.github.kittinunf.fuel.Fuel
+import org.jetbrains.exposed.sql.Database
 import org.jetbrains.exposed.sql.SchemaUtils
 import org.jetbrains.exposed.sql.selectAll
 import org.jetbrains.exposed.sql.transactions.transaction
@@ -22,15 +21,15 @@ fun main(args: Array<String>) {
             "admin"
     )
 
-    transaction {
+    /*transaction {
         SchemaUtils.create(Cancion)
 
         println("Estas son las canciones: ")
         for(cancion in Cancion.selectAll()) {
-            println("${cancion[Cancion.id]}: ${cancion[Cancion.year]}")
+            println("${cancion[Cancion.song]}: ${cancion[Cancion.year]}")
         }
 
-    }
+    }*/
 
     Thread.sleep(5000)
 
