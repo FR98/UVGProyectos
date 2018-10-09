@@ -5,7 +5,7 @@ import org.jetbrains.exposed.sql.Table
 object Cancion: Table() {
     //ATRIBUTOS DEL OBJETO CANCION
     val id = integer("id").autoIncrement().primaryKey()
-    //val isFavourite = bool("isFavourite")
+    val isFavourite = bool("isFavourite")
     val year = varchar("year", length = 5)
     val country = varchar("country", length = 24)
     val region = varchar("region", length = 24)

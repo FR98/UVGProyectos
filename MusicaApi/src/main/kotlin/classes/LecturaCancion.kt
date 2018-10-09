@@ -5,7 +5,7 @@ import com.google.gson.Gson
 
 data class LecturaCancion (
         //ATRIBUTOS DE LA CLASE
-        //val isFavourite: String
+        val isFavourite: Boolean = false,
         val year: String,
         val country: String,
         val region: String,
